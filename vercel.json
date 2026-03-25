@@ -4,7 +4,7 @@
     {
       "source": "/",
       "has": [{"type":"header","key":"user-agent","value":"(?i).*(Twitterbot|facebookexternalhit|WhatsApp|TelegramBot|Discordbot|LinkedInBot|Slackbot|Pinterest|W3C_Validator).*"}],
-      "destination": "/api/og.php"
+      "destination": "/api/og"
     }
   ]
 }
