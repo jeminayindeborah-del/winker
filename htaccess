@@ -1,0 +1,4 @@
+RewriteEngine On
+# Send social bots to og.php — real users always get fast static index.html
+RewriteCond %{HTTP_USER_AGENT} Twitterbot|facebookexternalhit|WhatsApp|TelegramBot|Discordbot|LinkedInBot|Slackbot|Pinterest|W3C_Validator [NC]
+RewriteRule ^(index\.html)?$ og.php [L]
