@@ -19,7 +19,7 @@ $alt   = '$WINKER 4.0 Airdrop - Claim Your Tokens';
 $name  = '$WINKER 4.0';
 
 // ── Load index.html and swap relative paths with absolute ────────────
-$html = file_get_contents(__DIR__ . '/index.html');
+$html = file_get_contents(__DIR__ . '/../index.html');
 
 $html = preg_replace('/<meta\s+name="description"\s+content="[^"]*"/i',
     '<meta name="description" content="' . htmlspecialchars($desc, ENT_QUOTES) . '"', $html);
